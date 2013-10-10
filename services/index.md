@@ -1,6 +1,6 @@
 ---
 layout: default
-section: etc
+section: services
 title: Miscellaneous
 ---
 
