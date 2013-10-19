@@ -1,0 +1,27 @@
+<!-- saved from url=(0014)about:internet -->
+<HTML>
+<HEAD>
+<TITLE>ahk Plug-In</TITLE>
+<META http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<SCRIPT language="javascript" >
+function testMessage()
+{
+alert("new message!");
+}
+function Radiology_EventAnnotationModified(pageID, shelfID, windowID, studyID, seriesID, imageID, toolType, token, strXML)
+{
+ // alert("hello");
+}
+</SCRIPT>
+</head>
+
+<body>
+<form>
+<input type="button" value="testMessage" onclick="testMessage()" /> before launching ahk script, says "old Message", after says, "test mesaage" and calls an ahk message
+</form><br>
+<form>
+<input type="button" name="ahkbutton" value="testahk" onclick="ahk.ahkMessage()" /> call ahk from javascript (after launching ahk script)
+</form>
+
+</body>
+</HTML>
