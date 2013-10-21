@@ -1,7 +1,7 @@
 ---
 layout: default
 section: products
-title: products
+title: features
 ---
 
 {% assign filtered_posts = site.categories.products %}
