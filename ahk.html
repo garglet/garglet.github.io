@@ -16,12 +16,107 @@ function Radiology_EventAnnotationModified(pageID, shelfID, windowID, studyID, s
 </head>
 
 <body>
-<form>
-<input type="button" value="testMessage" onclick="testMessage()" /> before launching ahk script, says "old Message", after says, "test mesaage" and calls an ahk message
-</form><br>
-<form>
-<input type="button" name="ahkbutton" value="testahk" onclick="ahk.ahkMessage()" /> call ahk from javascript (after launching ahk script)
-</form>
 
+  <div id="readme" class="blob instapaper_body">
+    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1>
+<a name="user-content-garglet-functionality" class="anchor" href="#garglet-functionality" aria-hidden="true"><span class="octicon octicon-link"></span></a>Garglets</h1>
+
+<h2>
+<a name="user-content-scroll" class="anchor" href="#scroll" aria-hidden="true"><span class="octicon octicon-link"></span></a>scroll</h2>
+
+<p>scroll through images by moving the mouse instead of the scrollwheel.
+can toggle using a user assigned key or the middle click.
+make sure capslock is off.  </p>
+
+<h2>
+<a name="user-content-ruler" class="anchor" href="#ruler" aria-hidden="true"><span class="octicon octicon-link"></span></a>ruler</h2>
+
+<p>activate ruler without going up to the measurement pallete
+ruler tool is deactivated automatically after one ruler annotation is created.</p>
+
+<h2>
+<a name="user-content-roi" class="anchor" href="#roi" aria-hidden="true"><span class="octicon octicon-link"></span></a>roi</h2>
+
+<p>activate roi without going up to the measurement pallete
+roi tool is deactivated automatically after one roi annotation is created.</p>
+
+<h2>
+<a name="user-content-arrow" class="anchor" href="#arrow" aria-hidden="true"><span class="octicon octicon-link"></span></a>arrow</h2>
+
+<p>activate arrow without going up to the measurement pallete
+arrow tool is deactivated automatically after one arrow annotation is created.</p>
+
+<h2>
+<a name="user-content-doubleclick" class="anchor" href="#doubleclick" aria-hidden="true"><span class="octicon octicon-link"></span></a>doubleclick</h2>
+
+<p>toggles between full screen and multiple series per monitor</p>
+
+<h2>
+<a name="user-content-autowindow" class="anchor" href="#autowindow" aria-hidden="true"><span class="octicon octicon-link"></span></a>autowindow</h2>
+
+<p>use default window and level presets</p>
+
+<h2>
+<a name="user-content-point-value" class="anchor" href="#point-value" aria-hidden="true"><span class="octicon octicon-link"></span></a>point value</h2>
+
+<p>show pixel intensity under cursor (hounsfield units on ct)</p>
+
+<h2>
+<a name="user-content-delete-markup" class="anchor" href="#delete-markup" aria-hidden="true"><span class="octicon octicon-link"></span></a>delete markup</h2>
+
+<p>delete all annotations on current image
+make sure mouse cursor is not directly on top of an annotation before pressing delete.</p>
+
+<h2>
+<a name="user-content-save-presentation-state" class="anchor" href="#save-presentation-state" aria-hidden="true"><span class="octicon octicon-link"></span></a>save presentation state</h2>
+
+<h2>
+<a name="user-content-short-axis" class="anchor" href="#short-axis" aria-hidden="true"><span class="octicon octicon-link"></span></a>short axis</h2>
+
+<p>find and markup short axis of structure under mouse cursor</p>
+
+<h2>
+<a name="user-content-long-axis" class="anchor" href="#long-axis" aria-hidden="true"><span class="octicon octicon-link"></span></a>long axis</h2>
+
+<p>find and markup long axis of structure under mouse cursor</p>
+
+<h2>
+<a name="user-content-contour" class="anchor" href="#contour" aria-hidden="true"><span class="octicon octicon-link"></span></a>contour</h2>
+
+<p>find and markup contour around structure under mouse cursor</p>
+
+<h2>
+<a name="user-content-auto-roi" class="anchor" href="#auto-roi" aria-hidden="true"><span class="octicon octicon-link"></span></a>auto roi</h2>
+
+<p>create a roi with a radius half that of structure under mouse cursor</p>
+
+<h2>
+<a name="user-content-save-dicom-image" class="anchor" href="#save-dicom-image" aria-hidden="true"><span class="octicon octicon-link"></span></a>save dicom image</h2>
+
+<p>select a folder to download dicom image under mouse cursor</p>
+
+<h2>
+<a name="user-content-save-dicom-series" class="anchor" href="#save-dicom-series" aria-hidden="true"><span class="octicon octicon-link"></span></a>save dicom series</h2>
+
+<p>select a folder to download dicom files for all imagese in series under mouse cursor</p>
+
+<h2>
+<a name="user-content-save-dicom-study" class="anchor" href="#save-dicom-study" aria-hidden="true"><span class="octicon octicon-link"></span></a>save dicom study</h2>
+
+<p>select a folder to download dicom files for all images in study currently loaded</p>
+
+<h2>
+<a name="user-content-mip" class="anchor" href="#mip" aria-hidden="true"><span class="octicon octicon-link"></span></a>mip</h2>
+
+<pre><code>maximum intensity projections
+middleclick or press v and then move mouse to toggle scrolling fast
+use mousewheel to scroll slow
+w to change window level
+q to deactivate last user interface tool
+</code></pre></article>
+  </div>
+
+  </div>
+</div>
 </body>
 </HTML>
