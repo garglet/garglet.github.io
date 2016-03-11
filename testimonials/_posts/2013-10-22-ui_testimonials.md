@@ -17,11 +17,5 @@ made on most measurements.
 * The use of shortcuts have definitely made
 reporting more fun and efficient.
 
-* The functions I particularly value are the
-semiautomated “push” to AQnet, to be able
-to scroll with holding the mouse down (a function
-sadly lost with our isite upgrade) and the
-hot key for arrows to annotate.
-
 * The tools that you have provided for the division
 are exceptional.
