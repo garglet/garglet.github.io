@@ -1,7 +1,7 @@
 ---
 layout: default
-section: blog
-title: Blog Posts
+section: legal
+title: legal
 ---
 
 {% assign filtered_posts = site.categories.blog %}
