@@ -4,7 +4,7 @@ section: legal
 title: legal
 ---
 
-{% assign filtered_posts = site.categories.blog %}
+{% assign filtered_posts = site.categories.legal %}
 
 {% include pagelist.html %}
 
