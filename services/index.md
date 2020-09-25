@@ -1,7 +1,7 @@
 ---
 layout: default
 section: services
-title: consulting services
+title: services
 ---
 
 {% assign filtered_posts = site.categories.services %}
