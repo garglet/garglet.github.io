@@ -1,9 +1,7 @@
 ---
 layout: products-page
-title: investors and potential cofounders
-description: investors and potential cofounders
 ---
-contact us: https://www.linkedin.com/company/garglet
+contact us: message founder on linkedin
 
 if you are: 
 - interested in solving general artificial intelligence 
